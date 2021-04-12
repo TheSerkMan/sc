@@ -1,0 +1,79 @@
+body{
+    margin: 0; 
+}
+.navbar{
+    background-color: #00cc8f;
+    height: 50px;
+    color: aliceblue;
+    font-family: 'Lobster Two', cursive;
+    font-size: 25px;
+    position:sticky;
+}
+.navlist{
+    text-align: center;
+    position: absolute;
+    top: -15;
+    left: 1050;
+    
+}
+.navlist li{
+    display: inline-block;
+}
+.navlist li a{
+    color: aliceblue;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 1s
+}
+.navlist li a:hover{
+    color: #80ffd9;
+    text-decoration: none;
+    
+}
+#kasten{
+    
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    top: 300%
+}   
+.backgroundtop {
+    background-image: url("../img/IMG_488200.jpg");
+    background-size: cover;
+    background-position: top;
+    padding:500;
+}
+.hallochen {
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Lobster Two', cursive;
+    position: absolute;
+    top: 100px;
+    left: 1100;
+}
+.backgroundcenter {
+    background-image: url("../img/IMG_488300.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 500;
+}
+.aua {
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Lobster Two', cursive;
+}
+.backgroundbottom {
+    background-image: url("../img/IMG_487400.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 500;
+}
+.ohm {
+     text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Lobster Two', cursive;
+}
